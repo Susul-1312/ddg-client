@@ -1,0 +1,23 @@
+{
+  "name": "ddg-parser",
+  "version": "1.0.0",
+  "description": "Allows easily and quickly getting results from the duckduckgo (ddg.gg) search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susul-1312/ddg-client.git"
+  },
+  "keywords": [
+    "search-engine",
+    "duckduckgo"
+  ],
+  "author": "Susul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susul-1312/ddg-client/issues"
+  },
+  "homepage": "https://github.com/Susul-1312/ddg-client#readme"
+}
