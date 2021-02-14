@@ -1,4 +1,9 @@
 const { getDDG } = require("./lib/getddg.js")
-const parser = require("./lib/htmlparser.js")
+const { parseHTML } = require("./lib/htmlparser.js")
 
-getDDG("test").then((r) => console.log(r));
+getDDG("nodejs").then((r) => { // this is just for testing for now
+	console.log(r);
+	parseHTML(r.body).then((h) => {
+		console.log(h);
+	});
+})
